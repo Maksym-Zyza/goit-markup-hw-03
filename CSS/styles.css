@@ -14,7 +14,17 @@ body {
 
 /* Скидывание маркеров*/
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
+}
+
+/* Page header */
+.page-header-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  outline: 2px solid red;
 }
 
 /* Site nav */
@@ -44,8 +54,12 @@ body {
 
 /* Hero */
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: var(--light-text-color);
   background: rgba(47, 48, 58, 0.8);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -60,6 +74,7 @@ body {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
+  outline: 2px solid red;
 }
 
 /* Section 2 - Преймущества */
@@ -147,14 +162,22 @@ body {
 
 /* Button */
 .button {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+
   color: var(--light-text-color);
   background-color: var(--accent-color);
+
   border-color: var(--accent-color);
   font-family: Roboto;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 
 /* Footer form */
@@ -171,10 +194,16 @@ body {
 }
 
 .selection-button {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 6px 22px;
+
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  text-align: center;
 }
 
 .selection-button.primary {
