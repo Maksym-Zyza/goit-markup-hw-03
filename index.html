@@ -16,28 +16,30 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="container">
-        <nav>
-          <a href="./" class="logo">
+      <div class="container nav-box flex">
+        <nav class="flex">
+          <a class="logo" href="./">
             <img src="./img/web-studio.svg" alt="Web Studio" />
           </a>
           <ul class="site-nav list">
-            <li><a href="./" class="site-nav link current">Студия</a></li>
-            <li>
-              <a href="./portfolio.html" class="site-nav link">Портфолио</a>
+            <li class="item">
+              <a class="site-nav link current" href="./">Студия</a>
             </li>
-            <li><a href="" class="site-nav link">Контакты</a></li>
+            <li class="item">
+              <a class="site-nav link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="item"><a class="site-nav link" href="">Контакты</a></li>
           </ul>
         </nav>
 
         <ul class="page-header-adres list">
-          <li>
+          <li class="item">
             <a href="mailto:info@devstudio.com">
               <img src="./img/envelope.svg" alt="envelope" />
               info@devstudio.com
             </a>
           </li>
-          <li>
+          <li class="item">
             <a href="tel:+380961111111">
               <img src="./img/Tel.svg" alt="telephone" />
               +38 096 111 11 11
@@ -61,8 +63,8 @@
       <section class="section">
         <div class="container">
           <h2 hidden>Преймущества Веб студии</h2>
-          <ul class="benefits list">
-            <li>
+          <ul class="benefits list flex">
+            <li class="item">
               <img src="./img/antenna_1.svg" alt="antenna" />
               <h3 class="benefits-title">Внимание к деталям</h3>
               <p class="benefits-text">
@@ -71,7 +73,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="item">
               <img src="./img/clock_1.svg" alt="clock" />
               <h3 class="benefits-title">Пунктуальность</h3>
               <p class="benefits-text">
@@ -80,7 +82,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="item">
               <img src="./img/diagram_1.svg" alt="diagram" />
               <h3 class="benefits-title">Планирование</h3>
               <p class="benefits-text">
@@ -89,7 +91,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="item">
               <img src="./img/astronaut_1.svg" alt="astronaut" />
               <h3 class="benefits-title">Современные технологии</h3>
               <p class="benefits-text">
@@ -105,8 +107,8 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul class="offer list">
-            <li>
+          <ul class="offer list flex">
+            <li class="item">
               <a href="">
                 <img
                   src="./img/box_1.jpg"
@@ -115,7 +117,7 @@
                 <p class="offer-caption">Десктопные приложения</p>
               </a>
             </li>
-            <li>
+            <li class="item">
               <a href="">
                 <img
                   src="./img/box_2.jpg"
@@ -124,7 +126,7 @@
                 <p class="offer-caption">Мобильные приложения</p>
               </a>
             </li>
-            <li>
+            <li class="item">
               <a href="">
                 <img
                   src="./img/box_3.jpg"
@@ -141,120 +143,140 @@
       <section class="section team">
         <div class="container section-padding">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="team list">
-            <li>
-              <img
-                src="./img/Николай_Кучеренко.jpg"
-                alt="фото - Николай Кучеренко"
-              />
-              <h3 class="team-member">Николай Кучеренко</h3>
-              <p class="team-member-position">Product Designer</p>
-              <ul class="team-member-social-pages list">
-                <li>
-                  <a href="">
-                    <img src="./img/Ellipse_инста.svg" alt="лого-инстаграм" />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img src="./img/Ellipse_твитер.svg" alt="лого-твитер" />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img src="./img/Ellipse_фейсбук.svg" alt="лого-фейсбук" />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img src="./img/Ellipse_линкин.svg" alt="лого-линкиндин" />
-                  </a>
-                </li>
-              </ul>
+          <ul class="team list flex">
+            <li class="item">
+              <div class="member-background">
+                <img
+                  src="./img/Николай_Кучеренко.jpg"
+                  alt="фото - Николай Кучеренко"
+                />
+                <h3 class="team-member">Николай Кучеренко</h3>
+                <p class="team-member-position">Product Designer</p>
+                <ul class="team-member-social-pages list flex">
+                  <li class="item">
+                    <a href="">
+                      <img src="./img/Ellipse_инста.svg" alt="лого-инстаграм" />
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a href="">
+                      <img src="./img/Ellipse_твитер.svg" alt="лого-твитер" />
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a href="">
+                      <img src="./img/Ellipse_фейсбук.svg" alt="лого-фейсбук" />
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a href="">
+                      <img
+                        src="./img/Ellipse_линкин.svg"
+                        alt="лого-линкиндин"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
-            <li>
-              <img src="./img/Ольга_Иванова.jpg" alt="фото - Ольга Иванова" />
-              <h3 class="team-member">Ольга Иванова</h3>
-              <p class="team-member-position">Frontend Developer</p>
-              <ul class="team-member-social-pages list">
-                <li>
-                  <a href="">
-                    <img src="./img/Ellipse_инста.svg" alt="лого-инстаграм" />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img src="./img/Ellipse_твитер.svg" alt="лого-твитер" />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img src="./img/Ellipse_фейсбук.svg" alt="лого-фейсбук" />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img src="./img/Ellipse_линкин.svg" alt="лого-линкиндин" />
-                  </a>
-                </li>
-              </ul>
+            <li class="item">
+              <div class="member-background">
+                <img src="./img/Ольга_Иванова.jpg" alt="фото - Ольга Иванова" />
+                <h3 class="team-member">Ольга Иванова</h3>
+                <p class="team-member-position">Frontend Developer</p>
+                <ul class="team-member-social-pages list flex">
+                  <li class="item">
+                    <a href="">
+                      <img src="./img/Ellipse_инста.svg" alt="лого-инстаграм" />
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a href="">
+                      <img src="./img/Ellipse_твитер.svg" alt="лого-твитер" />
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a href="">
+                      <img src="./img/Ellipse_фейсбук.svg" alt="лого-фейсбук" />
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a href="">
+                      <img
+                        src="./img/Ellipse_линкин.svg"
+                        alt="лого-линкиндин"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
-            <li>
-              <img
-                src="./img/Андрей_Шевченко.jpg"
-                alt="фото - Андрей Шевченко"
-              />
-              <h3 class="team-member">Андрей Шевченко</h3>
-              <p class="team-member-position">Marketing</p>
-              <ul class="team-member-social-pages list">
-                <li>
-                  <a href="">
-                    <img src="./img/Ellipse_инста.svg" alt="лого-инстаграм" />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img src="./img/Ellipse_твитер.svg" alt="лого-твитер" />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img src="./img/Ellipse_фейсбук.svg" alt="лого-фейсбук" />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img src="./img/Ellipse_линкин.svg" alt="лого-линкиндин" />
-                  </a>
-                </li>
-              </ul>
+            <li class="item">
+              <div class="member-background">
+                <img
+                  src="./img/Андрей_Шевченко.jpg"
+                  alt="фото - Андрей Шевченко"
+                />
+                <h3 class="team-member">Андрей Шевченко</h3>
+                <p class="team-member-position">Marketing</p>
+                <ul class="team-member-social-pages list flex">
+                  <li class="item">
+                    <a href="">
+                      <img src="./img/Ellipse_инста.svg" alt="лого-инстаграм" />
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a href="">
+                      <img src="./img/Ellipse_твитер.svg" alt="лого-твитер" />
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a href="">
+                      <img src="./img/Ellipse_фейсбук.svg" alt="лого-фейсбук" />
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a href="">
+                      <img
+                        src="./img/Ellipse_линкин.svg"
+                        alt="лого-линкиндин"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
-            <li>
-              <img src="./img/Иван_Николаев.jpg" alt="фото - Иван Николаев" />
-              <h3 class="team-member">Иван Николаев</h3>
-              <p class="team-member-position">UI Designer</p>
-              <ul class="team-member-social-pages list">
-                <li>
-                  <a href="">
-                    <img src="./img/Ellipse_инста.svg" alt="лого-инстаграм" />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img src="./img/Ellipse_твитер.svg" alt="лого-твитер" />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img src="./img/Ellipse_фейсбук.svg" alt="лого-фейсбук" />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img src="./img/Ellipse_линкин.svg" alt="лого-линкиндин" />
-                  </a>
-                </li>
-              </ul>
+            <li class="item">
+              <div class="member-background">
+                <img src="./img/Иван_Николаев.jpg" alt="фото - Иван Николаев" />
+                <h3 class="team-member">Иван Николаев</h3>
+                <p class="team-member-position">UI Designer</p>
+                <ul class="team-member-social-pages list flex">
+                  <li class="item">
+                    <a href="">
+                      <img src="./img/Ellipse_инста.svg" alt="лого-инстаграм" />
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a href="">
+                      <img src="./img/Ellipse_твитер.svg" alt="лого-твитер" />
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a href="">
+                      <img src="./img/Ellipse_фейсбук.svg" alt="лого-фейсбук" />
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a href="">
+                      <img
+                        src="./img/Ellipse_линкин.svg"
+                        alt="лого-линкиндин"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>
@@ -264,33 +286,33 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">Постоянные клиенты</h2>
-          <ul class="customers list">
-            <li>
+          <ul class="customers list flex">
+            <li class="item">
               <a href="">
                 <img src="./img/Client_1.svg" alt="img-client_1" />
               </a>
             </li>
-            <li>
+            <li class="item">
               <a href="">
                 <img src="./img/Client_2.svg" alt="img-client_2" />
               </a>
             </li>
-            <li>
+            <li class="item">
               <a href="">
                 <img src="./img/Client_3.svg" alt="img-client_3" />
               </a>
             </li>
-            <li>
+            <li class="item">
               <a href="">
                 <img src="./img/Client_4.svg" alt="img-client_4" />
               </a>
             </li>
-            <li>
+            <li class="item">
               <a href="">
                 <img src="./img/Client_5.svg" alt="img-client_5" />
               </a>
             </li>
-            <li>
+            <li class="item">
               <a href="">
                 <img src="./img/Client_6.svg" alt="img-client_6" />
               </a>
@@ -302,74 +324,82 @@
 
     <!-- Футер -->
     <footer class="footer">
-      <div>
-        <a href="./">
-          <img src="./img/Web_Studio_white.svg" alt="Web Studio" />
-        </a>
-        <address>
-          <ul class="address list">
-            <li>
-              <a
-                href="https://goo.gl/maps/XdUtzJVZAnosNTWN9"
-                class="address-map"
-                target="_blank"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
+      <div class="footer-container">
+        <div class="address-container">
+          <a href="./">
+            <img src="./img/Web_Studio_white.svg" alt="Web Studio" />
+          </a>
+          <address>
+            <ul class="address list">
+              <li class="address-map-item">
+                <a
+                  class="address-map"
+                  href="https://goo.gl/maps/XdUtzJVZAnosNTWN9"
+                  target="_blank"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="address-item">
+                <a class="address-mail" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a class="address-tel" href="tel:+380961111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="social-pages-container">
+          <h3 class="footer-accede">присоединяйтесь</h3>
+          <ul class="footer-accede-social-pages list flex">
+            <li class="item">
+              <a aria-label="instagram link" href="">
+                <img
+                  src="./img/Ellipse_инста-1.svg"
+                  alt="лого-инстаграм-white"
+                />
+              </a>
             </li>
-            <li>
-              <a href="mailto:info@example.com" class="address-mail"
-                >info@example.com</a
-              >
+            <li class="item">
+              <a aria-label="twitter link" href="">
+                <img src="./img/Ellipse_twitter.svg" alt="лого-твитер-white" />
+              </a>
             </li>
-            <li>
-              <a href="tel:+380961111111" class="address-tel"
-                >+38 099 111 11 11</a
-              >
+            <li class="item">
+              <a aria-label="facebook link" href="">
+                <img
+                  src="./img/Ellipse_фейсбук-1.svg"
+                  alt="лого-фейсбук-white"
+                />
+              </a>
+            </li>
+            <li class="item">
+              <a aria-label="linkidun link" href="">
+                <img
+                  src="./img/Ellipse_линкин-1.svg"
+                  alt="лого-линкиндин-white"
+                />
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
+
+        <div class="subscribe-container">
+          <h3 class="footer-subscribe">Подпишитесь на рассылку</h3>
+          <form>
+            <input name="q" placeholder="E-mail" class="footer-form" />
+            <input type="submit" value="Подписаться" class="button" />
+          </form>
+        </div>
       </div>
 
-      <div>
-        <h3 class="footer-accede">присоединяйтесь</h3>
-        <ul class="footer-accede-social-pages list">
-          <li>
-            <a aria-label="instagram link" href="">
-              <img src="./img/Ellipse_инста-1.svg" alt="лого-инстаграм-white" />
-            </a>
-          </li>
-          <li>
-            <a aria-label="twitter link" href="">
-              <img src="./img/Ellipse_твитер-1.svg" alt="лого-твитер-white" />
-            </a>
-          </li>
-          <li>
-            <a aria-label="facebook link" href="">
-              <img src="./img/Ellipse_фейсбук-1.svg" alt="лого-фейсбук-white" />
-            </a>
-          </li>
-          <li>
-            <a aria-label="linkidun link" href="">
-              <img
-                src="./img/Ellipse_линкин-1.svg"
-                alt="лого-линкиндин-white"
-              />
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <h3 class="footer-subscribe">Подпишитесь на рассылку</h3>
-        <form>
-          <input name="q" placeholder="E-mail" class="footer-form" />
-          <input type="submit" value="Подписаться" class="button" />
-        </form>
-      </div>
-
-      <p lang="en" class="footer-developed">
+      <!-- <p lang="en" class="footer-developed">
         2020 | Developed by GoIT Students
-      </p>
+      </p> -->
     </footer>
   </body>
 </html>
