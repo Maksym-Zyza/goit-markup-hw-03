@@ -176,6 +176,10 @@ p {
   text-transform: uppercase;
 }
 
+.offer a {
+  text-decoration: none;
+}
+
 /* Section 4 - Команда */
 .team {
   background: #f5f4fa;
