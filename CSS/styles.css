@@ -20,6 +20,10 @@ p {
   margin-bottom: 0;
 }
 
+.img {
+  display: inline-block;
+}
+
 /* Утилиты*/
 .list {
   padding: 0;
@@ -37,7 +41,6 @@ p {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 94px;
   padding-left: 15px;
   padding-right: 15px;
   /* outline: 2px solid red; */
@@ -54,9 +57,13 @@ p {
   padding-bottom: 29px;
 }
 
-.section-padding {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0;
 }
 
 /* Site nav */
@@ -112,15 +119,14 @@ p {
 /* Hero */
 .hero {
   text-align: center;
-  margin-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 280px;
+  background: rgba(47, 48, 58, 0.8);
 }
 
 .hero-title {
-  margin-top: 200px;
-  margin-bottom: 30px;
-
+  padding-bottom: 30px;
   color: var(--light-text-color);
-  background: rgba(47, 48, 58, 0.8);
 
   font-weight: 900;
   font-size: 44px;
@@ -227,21 +233,12 @@ p {
 /* Футер */
 .footer {
   background-color: #2f303a;
-}
-
-.footer-container {
-  background-color: #2f303a;
-  width: 1200px;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
-.address-container {
-  margin-top: 60px;
+.baseline {
+  align-items: baseline;
 }
 
 .address-map-item {
@@ -271,7 +268,6 @@ p {
 }
 
 .social-pages-container {
-  margin-top: 72px;
   margin-left: 69px;
 }
 
@@ -296,7 +292,6 @@ p {
 }
 
 .subscribe-container {
-  margin-top: 72px;
   margin-left: 94px;
 }
 
@@ -335,7 +330,6 @@ p {
 }
 
 /* СТРАНИЦА - Portfolio */
-
 .portfolio-selection {
   text-align: center;
   justify-content: center;
